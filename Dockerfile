@@ -27,7 +27,6 @@ USER root
 
 EXPOSE 5353 51826
 
-ADD install_plugins.sh /root/install_plugins.sh
 ADD run.sh /root/run.sh
 
 VOLUME ["/root/.homebridge"]
