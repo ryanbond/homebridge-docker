@@ -33,7 +33,7 @@ sudo apt-get install -qy avahi-daemon avahi-discover libnss-mdns libavahi-compat
 # Install homebridge                             #
 ##################################################
 
-sudo npm install -g homebridge
+sudo npm install -g --unsafe-perm homebridge
 sudo npm install -g homebridge-control4
 
 #########################################
